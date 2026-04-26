@@ -1,0 +1,43 @@
+# ═══════════════════════════════════════════════════════════
+# ملفات النظام والمحرّر التي يجب عدم رفعها إلى GitHub
+# ═══════════════════════════════════════════════════════════
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (إن استخدمت أدوات بناء لاحقاً)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# نسخ احتياطية محلية
+*.bak
+*.backup
+backup/
+backups/
+
+# ملفات السجل والمؤقتة
+*.log
+*.tmp
+.cache/
+
+# 🔒 إن أردتَ إخفاء إعدادات Firebase الخاصة (ليست ضرورية في GitHub Pages
+# لأن المتصفح سيقرأها على أي حال، لكن إن استخدمت ملفاً منفصلاً للسر):
+# firebase-config.private.js
